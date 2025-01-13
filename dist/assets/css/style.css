@@ -229,7 +229,7 @@ h6,
 /*** Hero Header ***/
 .hero-header,
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url(/public/img/img-for-me/hero-2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url(../../img/img-for-me/hero-2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -242,7 +242,7 @@ h6,
     position: relative;
     height: 100%;
     min-height: 400px;
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(/public/img/video/min.jpeg);
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../../img/video/min.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -360,7 +360,7 @@ h6,
 }
 
 .about {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(/public/img/img-for-me/hero-2.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../../img/img-for-me/hero-2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -659,7 +659,7 @@ h6,
 
 /*** Footer Start ***/
 .footer {
-    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, 1)), url(../img/background.jpg);
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, 1)), url(../../img/);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
