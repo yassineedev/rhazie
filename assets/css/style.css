@@ -230,7 +230,7 @@ h6,
 /*** Hero Header ***/
 .hero-header,
 .page-header {
-    background:  linear-gradient(90deg, rgba(14, 58, 204, 0.747) 0%, rgba(35, 35, 151, 0.473) 35%, rgba(90, 218, 143, 0.596) 100%), url(../../img/img-for-me/hero-2.webp);
+    background:  linear-gradient(90deg, rgba(8, 9, 10, 0.747) 0%, rgba(35, 35, 151, 0.473) 35%, rgba(90, 218, 143, 0.596) 100%), url(../../img/img-for-me/hero-2.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
