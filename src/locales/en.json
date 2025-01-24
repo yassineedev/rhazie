@@ -1,0 +1,94 @@
+{
+    "home":"Home",
+    "about":"About",
+    "service":"Services",
+    "program":"Programs",
+    "event":"Events",
+    "contacts":"Contact",
+    "question":"Do you have any questions?",
+
+
+
+    "School":"RHAZES INSTITUTE",
+    "slogan":"Shape your future with impact",
+    "courseBtn":"Our Course",
+    "contactBtn":"Contact",
+    
+    
+    "aboutTitle":"about Us",
+    "aboutH1":"Empowering future healthcare professionals with smart, compassionate training for a better future",
+    "aboutParagraph":"We offer comprehensive training tailored to the current demands of the healthcare sector, combining theoretical and practical knowledge. Our goal is to prepare our students to meet the challenges of the profession while adopting a patient-centered approach.",
+    "property1":"Supervised clinical internships",
+    "property2":"Modern simulation laboratories",
+    "property3":"Personalized support program",
+    "property4":"Emergency Care Training",
+    "property5":"Collaborative learning environment",
+    "property6":"Experienced teaching team",
+
+
+    "servicesTilte":"What we offer",
+    "services":"Explore our services",
+    "languges":"Language courses",
+    "langugesParagraph":"Master French and German with our qualified trainers to broaden your personal and professional horizons.",
+    "stages":"Practical training courses",
+    "stagesParagraph":"Benefit from practical experience thanks to our internships in partner companies, to strengthen your skills in the field.",
+    "staff":"The trainers",
+    "staffParagraph":"Learn from our passionate experts, who put their knowledge and experience at your disposal to guide you.",
+    "tools":"The materials",
+    "toolsPragraph":"Access modern equipment and cutting-edge educational resources for optimal learning.",
+
+    "programmesTitle":"Our programs",
+    "programmes":"We offer an exclusive program",
+    "firstJob":"Nursing assistant",
+    "firstDescr":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,",
+    "firstperiod":"1 Year",
+    "secJob":"Auxiliary nurse",
+    "secDescr":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur",
+    "secperiod":"2 Years",
+    "thirdJob":"Versatile Nurse",
+    "thirdDescr":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur",
+    "thirdperiod":"3 Years",
+
+
+    "eventTitle":"Our Events",
+    "events":"Our Upcoming Events",
+    "cardtitle":"title",
+    "carddesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,",
+    "cardtitle2":"title",
+    "carddesc2":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,",
+    "cardtitle3":"title",
+    "carddesc3":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,",
+
+
+    "staftitle":"Our team",
+    "staf":"The supervisors",
+
+    "testimonialstitle":"Our Testimonials",
+    "testmonials":"Parents Say About Us",
+
+   
+    "contact":"Contact Us",
+    "contactH1":"Contact For Any Query",
+    "contactparagraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quasi porro corporis earum quibusdam deserunt! Sed esse dolore facere optio suscipit similique facilis autem explicabo inventore officiis, unde, dolorem illo!",
+    "address":"address",
+    "addressparagraph":"AVENUE ABDELLAH KANOUN CITE ASSALAM Agadir, Morocco",
+    "mailus":"Mail Us",
+    "phone":"Phone Number",
+    "submitBtn":"Submit",
+    "name":"Your Name",
+    "email":"Enter Your Email",
+    "message":"Your Message",
+
+    "monday":"Monday",
+    "tuesday":"Tuesday",
+    "wednes":"Wednes",
+    "thusday":"thusday",
+    "friday":"Friday",
+    "saturday":"Saturday",
+    "sunday":"Sunday: Closed",
+    "location":"LOCATION",
+    "gallery":"OUR GALLARY",
+
+    "right":"All right reserved"
+
+}

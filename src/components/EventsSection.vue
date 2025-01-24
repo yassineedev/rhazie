@@ -4,8 +4,8 @@
             <div class="container-fluid events py-5 bg-light">
             <div class="container py-5">
                 <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Our Events</h4>
-                    <h1 class="mb-5 display-3">Our Upcoming Events</h1>
+                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">{{ $t('eventTitle') }}</h4>
+                    <h1 class="mb-5 display-3">{{ $t('events') }}</h1>
                 </div>
                 <div class="row g-5 justify-content-center">
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
@@ -25,7 +25,7 @@
                             </div>
                             <div class="events-text p-4 border border-primary bg-white border-top-0 rounded-bottom">
                                 <a href="#" class="h4">Music & drawing <br>workshop</a>
-                                <p class="mb-0 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
+                                <p class="mb-0 mt-3">{{ $t('carddesc') }}</p>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                             </div>
                             <div class="events-text p-4 border border-primary bg-white border-top-0 rounded-bottom">
                                 <a href="#" class="h4">Why need</br> study</a>
-                                <p class="mb-0 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
+                                <p class="mb-0 mt-3">{{ $t('carddesc2') }}</p>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                             </div>
                             <div class="events-text p-4 border border-primary bg-white border-top-0 rounded-bottom">
                                 <a href="#" class="h4">Child health  <br>consciousness</a>
-                                <p class="mb-0 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
+                                <p class="mb-0 mt-3">{{ $t('carddesc3') }}</p>
                             </div>
                         </div>
                     </div>

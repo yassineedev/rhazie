@@ -4,8 +4,8 @@
             <div class="container-fluid team py-5">
             <div class="container py-5">
                 <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Notre equipe</h4>
-                    <h1 class="mb-5 display-3">Les encadreurs</h1>
+                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">{{ $t('staftitle') }}</h4>
+                    <h1 class="mb-5 display-3">{{ $t('staf') }}</h1>
                 </div>
                 <div class="row g-5 justify-content-center">
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.3s">

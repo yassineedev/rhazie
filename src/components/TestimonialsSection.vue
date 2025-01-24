@@ -2,8 +2,8 @@
         <div class="container-fluid testimonial py-5">
             <div class="container py-5">
                 <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Our Testimonials</h4>
-                    <h1 class="mb-5 display-3">Parents Say About Us</h1>
+                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">{{$t('testimonialstitle')}}</h4>
+                    <h1 class="mb-5 display-3">{{ $t('testmonials') }}</h1>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.3s">
                     <div class="testimonial-item img-border-radius bg-light border border-primary p-4">

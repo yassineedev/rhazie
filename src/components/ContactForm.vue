@@ -4,17 +4,17 @@
             <div class="container py-5">
                 <div class="p-5 bg-light rounded">
                     <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                        <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Contact Us</h4>
-                        <h1 class="display-3">Contact For Any Query</h1>
-                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quasi porro corporis earum quibusdam deserunt! Sed esse dolore facere optio suscipit similique facilis autem explicabo inventore officiis, unde, dolorem illo!</p>
+                        <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">{{ $t('contact') }}</h4>
+                        <h1 class="display-3">{{ $t('contactH1') }}</h1>
+                        <p class="mb-5">{{ $t('contactparagraph') }}</p>
                     </div>
                     <div class="row g-5 mb-5">
                         <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                             <div class="d-flex w-100 border border-primary p-4 rounded bg-white">
                                 <i class="fas fa-map-marker-alt fa-2x text-primary me-4"></i>
                                 <div class="">
-                                    <h4>Address</h4>
-                                    <p class="mb-2">AVENUE ABDELLAH KANOUN CITE ASSALAM Agadir, Morocco</p>
+                                    <h4>{{ $t('address') }}</h4>
+                                    <p class="mb-2">{{ $t('addressparagraph') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -22,7 +22,7 @@
                             <div class="d-flex w-100 border border-primary p-4 rounded bg-white">
                                 <i class="fas fa-envelope fa-2x text-primary me-4"></i>
                                 <div class="">
-                                    <h4>Mail Us</h4>
+                                    <h4>{{ $t('mailus') }}</h4>
                                     <p class="mb-2">rhazesinstitut413@gmail.com</p>
                                 </div>
                             </div>
@@ -31,7 +31,7 @@
                             <div class="d-flex w-100 border border-primary p-4 rounded bg-white">
                                 <i class="fa fa-phone-alt fa-2x text-primary me-4"></i>
                                 <div class="">
-                                    <h4>Telephone</h4>
+                                    <h4>{{ $t('phone') }}</h4>
                                     <p class="mb-2">+212 529 126 242</p>
                                 </div>
                             </div>
@@ -40,10 +40,10 @@
                     <div class="row g-5">
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
                             <form action="">
-                                <input type="text" class="w-100 form-control py-3 mb-5 border-primary" placeholder="Your Name">
-                                <input type="email" class="w-100 form-control py-3 mb-5 border-primary" placeholder="Enter Your Email">
-                                <textarea class="w-100 form-control mb-5 border-primary" rows="8" cols="10" placeholder="Your Message"></textarea>
-                                <button class="w-100 btn btn-primary form-control py-3 border-primary text-white bg-primary" type="submit">Submit</button>
+                                <input type="text" class="w-100 form-control py-3 mb-5 border-primary" :placeholder="$t('name')">
+                                <input type="email" class="w-100 form-control py-3 mb-5 border-primary" :placeholder="$t('email')">
+                                <textarea class="w-100 form-control mb-5 border-primary" rows="8" cols="10" :placeholder="$t('message')"></textarea>
+                                <button class="w-100 btn btn-primary form-control py-3 border-primary text-white bg-primary" type="submit">{{ $t('submitBtn') }}</button>
                             </form>
                         </div>
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">

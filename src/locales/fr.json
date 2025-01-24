@@ -1,0 +1,51 @@
+{
+    "School": "INSTITUT RHAZES",
+    "slogan": "Façonnez votre avenir avec une carrière qui fait la différence",
+    "courseBtn": "Nos Formations",
+    "contactBtn": "Contactez-nous",
+
+    "aboutTitle": "À propos de nous",
+    "aboutH1": "Donner aux futurs professionnels de la santé une formation intelligente et compatissante pour un avenir meilleur",
+    "aboutParagraph": "Nous offrons une formation complète adaptée aux exigences actuelles du secteur de la santé, combinant savoirs théoriques et pratiques. Notre objectif est de préparer nos étudiants à relever les défis du métier tout en adoptant une approche centrée sur le patient.",
+    "property1": "Stages cliniques supervisés",
+    "property2": "Laboratoires de simulation modernes",
+    "property3": "Programme d'accompagnement personnalisé",
+    "property4": "Formation en soins d'urgence",
+    "property5": "Environnement d'apprentissage collaboratif",
+    "property6": "Équipe pédagogique expérimentée",
+
+    "servicesTilte": "Ce que nous offrons",
+    "services": "Découvrez nos services",
+    "languges": "Cours de langues",
+    "langugesParagraph": "Maîtrisez le français et l'allemand avec nos formateurs qualifiés pour élargir vos horizons personnels et professionnels.",
+    "stages": "Formations pratiques",
+    "stagesParagraph": "Bénéficiez d'une expérience pratique grâce à nos stages en entreprises partenaires, pour renforcer vos compétences sur le terrain.",
+    "staff": "Les formateurs",
+    "staffParagraph": "Apprenez auprès de nos experts passionnés, qui mettent leurs connaissances et leur expérience à votre service pour vous guider.",
+    "tools": "Les équipements",
+    "toolsPragraph": "Accédez à des équipements modernes et à des ressources pédagogiques de pointe pour un apprentissage optimal.",
+
+    "programmesTitle": "Nos programmes",
+    "programmes": "Nous proposons un programme exclusif",
+    "firstJob": "Infirmier soignant",
+    "firstDescr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,",
+    "secJob": "Infirmier auxiliaire",
+    "secDescr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur",
+    "thirdJob": "Infirmier Polyvalent",
+    "thirdDescr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur",
+
+    "eventTitle": "Nos Événements",
+    "events": "Nos Événements à Venir",
+    "cardtitle": "Titre",
+    "carddesc": "Description",
+    "cardtitle2": "Titre",
+    "carddesc2": "Description",
+    "cardtitle3": "Titre",
+    "carddesc3": "Description",
+
+    "staftitle": "Notre Équipe",
+    "staf": "Les encadrants",
+
+    "testimonialstitle": "Nos Témoignages",
+    "testmonials": "Ce que disent les parents à notre sujet"
+}

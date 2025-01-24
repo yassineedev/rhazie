@@ -15,13 +15,13 @@
                         <div class="footer-item">
                             <div class="d-flex flex-column p-4 ps-5 text-dark border border-primary" 
                             style="border-radius: 50% 20% / 10% 40%;">
-                                <p>Monday: 8am to 5pm</p>
-                                <p>Tuesday: 8am to 5pm</p>
-                                <p>Wednes: 8am to 5pm</p>
-                                <p>Thursday: 8am to 5pm</p>
-                                <p>Friday: 8am to 5pm</p>
-                                <p>Saturday: 8am to 5pm</p>
-                                <p class="mb-0">Sunday: Closed</p>
+                                <p>{{$t('monday')}}: 8am -> 5pm</p>
+                                <p>{{$t('tuesday')}}: 8am -> 5pm</p>
+                                <p>{{$t('wednes')}}: 8am -> 5pm</p>
+                                <p>{{$t('thursday')}}: 8am -> 5pm</p>
+                                <p>{{$t('friday')}}: 8am -> 5pm</p>
+                                <p>{{$t('saturday')}}: 8am -> 5pm</p>
+                                <p class="mb-0">{{$t('sunday')}}</p>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                        
                     </div>
                     <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
-                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Institut Rhazes</a>, All right reserved.</span>
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>{{$t('School')}}</a>, {{ $t('right') }}.</span>
                     </div>
                     <div class="col-md-4 my-auto text-center text-md-end text-white">
                        
@@ -104,27 +104,4 @@
         <!-- Copyright End -->
 </template>
 <script>
-    // import { ref } from 'vue';
-    // import logorhazes from '@/assets//img/logo rhazes .png'
-    // import galary1 from '@/assets//img/galary-1.jpg'
-    // import galary2 from '@/assets//img/galary-2.jpg'
-    // import galary3 from '@/assets//img/galary-3.jpg'
-    // import galary4 from '@/assets//img/galary-4.jpg'
-    // import galary5 from '@/assets//img/galary-5.jpg'
-    // import galary6 from '@/assets//img/galary-6.jpg'
-    // export default {
-    // setup() {
-    //     const galary1 = ref(galary1);
-    //     const galary2 = ref(galary2);
-    //     const galary3 = ref(galary3);
-    //     const galary4 = ref(galary4);
-    //     const galary5 = ref(galary5);
-    //     const galary6 = ref(galary6);
-
-    //     return {
-    //         galary1,galary2,galary3,galary4,galary5,galary6
-    //     };
-    // }
-    // };
-    
 </script>
