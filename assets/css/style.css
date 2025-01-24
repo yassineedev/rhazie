@@ -230,7 +230,7 @@ h6,
 /*** Hero Header ***/
 .hero-header,
 .page-header {
-    background:  linear-gradient(90deg, rgba(2, 0, 36, 0.904) 0%, rgba(9, 9, 121, 0.473) 35%, rgba(0, 213, 255, 0.459) 100%), url(../../img/img-for-me/hero-2.webp);
+    background:  linear-gradient(90deg, rgba(14, 58, 204, 0.747) 0%, rgba(35, 35, 151, 0.473) 35%, rgba(90, 218, 143, 0.596) 100%), url(../../img/img-for-me/hero-2.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -708,3 +708,21 @@ a {
     background-color: #00712d !important;
 }
 /*** Footer End ***/
+.whats-app {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 3px 4px 3px #999;
+    left: 15px;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 10px;
+}
