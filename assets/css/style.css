@@ -230,7 +230,7 @@ h6,
 /*** Hero Header ***/
 .hero-header,
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url(../../img/img-for-me/hero-2.jpg);
+    background:  linear-gradient(90deg, rgba(2, 0, 36, 0.904) 0%, rgba(9, 9, 121, 0.473) 35%, rgba(0, 213, 255, 0.459) 100%), url(../../img/img-for-me/hero-2.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -242,13 +242,14 @@ h6,
 .video {
     position: relative;
     height: 100%;
-    min-height: 400px;
+    min-height: 300px ; /*400px*/
     background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../../img/video/min.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Avoid repeating */
+    background-size: cover; /* Scale the image to fill the container */
     border-radius: 10px;
 }
+
 
 .video .btn-play {
     position: absolute;
@@ -356,9 +357,9 @@ h6,
     opacity: 1;
 }
 
-.video.border {
+/* .video.border {
     border-radius: 50% 20% / 10% 40%;
-}
+} */
 
 .about {
     background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../../img/img-for-me/hero-2.jpg);
@@ -687,7 +688,6 @@ a {
     text-decoration: unset !important; 
 }
 .rhazi-style{
-    color:#1354AF!important ;
     font-weight: bold !important;
 }
 .nav-1{
