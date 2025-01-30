@@ -1,0 +1,52 @@
+// stores/events.js
+import { defineStore } from 'pinia';
+import { ref, } from 'vue';
+import img1 from '@/assets/img/events/pratique.JPG';
+import img2 from '@/assets/img/events/stage.JPG';
+import img3 from '@/assets/img/events/graduate.jpg';
+
+
+export const useEventStore = defineStore('eventStore', () => {
+
+  // State
+  const events = ref([
+    {
+      id: 1,
+      img: img1,
+      title: 'blog1-title',
+      pragraph1: "blog1-description.paragraph1",
+      pragraph2: "blog1-description.paragraph2",
+      pragraph3: "blog1-description.paragraph3",
+      pragraph4: "blog1-description.paragraph4",
+      paragraph5:'',
+      location: "Room A1, 2nd Floor",
+    },
+    {
+      id: 2,
+      img: img2,
+      title: "blog2-title",
+      pragraph1: "blog2-description.paragraph1",
+      pragraph2: "blog2-description.paragraph2",
+      pragraph3: "blog2-description.paragraph3",
+      pragraph4: "blog2-description.paragraph4",
+      paragraph5:'',
+      location: "Room B2, 3rd Floor",
+    },
+    {
+      id: 3,
+      img: img3,
+      title: "blog3-title",
+      pragraph1: "blog3-description.paragraph1",
+      pragraph2: "blog3-description.paragraph2",
+      pragraph3: "blog3-description.paragraph3",
+      pragraph4: "blog3-description.paragraph4",
+      pragraph5: "blog3-description.paragraph5",
+      location: "Main Hall",
+    },
+  ]);
+
+
+  return {
+    events,
+  };
+});
